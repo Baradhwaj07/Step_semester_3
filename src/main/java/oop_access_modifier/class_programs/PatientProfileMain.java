@@ -1,4 +1,4 @@
-public class PatientProfile {
+class PatientProfile {
     private String patientId;
     private String name;
     private boolean discharged;
@@ -51,7 +51,7 @@ public class PatientProfile {
 
 }
 
-class PatientProfileMain {
+public class PatientProfileMain {
     public static void main(String[] args) {
         PatientProfile profile = new PatientProfile();
         profile.setPatientId("MT2026-0142");

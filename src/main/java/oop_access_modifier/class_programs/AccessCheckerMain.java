@@ -1,4 +1,4 @@
-public class AccessChecker {
+class AccessChecker {
     static String classifyAccess(String fieldModifier, String accessorContext) {
         if ("public".equals(fieldModifier)) {
             return "ALLOWED";
@@ -34,10 +34,10 @@ public class AccessChecker {
 
 }
 
-class AccessCheckerMain {
+public class AccessCheckerMain {
     public static void main(String[] args) {
         System.out.println(AccessChecker.classifyAccess("protected", "SUBCLASS_DIFFERENT_PACKAGE_OWN_TYPE"));
         System.out.println(AccessChecker.classifyAccess("protected", "SUBCLASS_DIFFERENT_PACKAGE_PARENT_TYPE"));
-        System.out.println(AccessChecker.describeContext("SUBCLASS_DIFFERENT_PACKAGE_OWN_TYPE"));
+        System.out.println(AccessChecker.describeContext("SUBCLASS_DIFFERENT_PACKAGE_PARENT_TYPE"));
     }
 }

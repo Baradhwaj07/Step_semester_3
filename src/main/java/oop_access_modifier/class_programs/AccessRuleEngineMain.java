@@ -15,7 +15,7 @@ class PatientRecord {
     }
 }
 
-public class AccessRuleEngine {
+class AccessRuleEngine {
     static String classifyAccess(String fieldModifier, String accessorContext) {
         if ("public".equals(fieldModifier)) {
             return "ALLOWED";
@@ -52,7 +52,7 @@ public class AccessRuleEngine {
 
 }
 
-class AccessRuleEngineMain {
+public class AccessRuleEngineMain {
     public static void main(String[] args) {
         System.out.println(AccessRuleEngine.classifyAccess("private", "SAME_CLASS"));
         System.out.println(AccessRuleEngine.classifyAccess("default", "DIFFERENT_PACKAGE"));

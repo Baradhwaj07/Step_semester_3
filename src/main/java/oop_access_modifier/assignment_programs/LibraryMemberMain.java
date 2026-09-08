@@ -1,4 +1,4 @@
-public class LibraryMember {
+class LibraryMember {
     private String membershipId;
     private String name;
     private boolean premiumMember;
@@ -49,9 +49,11 @@ public class LibraryMember {
         }
     }
 
+
+
 }
 
-class LibraryMemberMain {
+public class LibraryMemberMain {
     public static void main(String[] args) {
         LibraryMember member = new LibraryMember();
         member.setMembershipId("LIB-8841");

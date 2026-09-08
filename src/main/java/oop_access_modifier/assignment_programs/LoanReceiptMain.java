@@ -1,4 +1,4 @@
-public class LoanReceipt {
+class LoanReceipt {
     private static final String BOOK_PREFIX;
     private final String memberId;
     private final String[] bookIds;
@@ -19,6 +19,7 @@ public class LoanReceipt {
             }
             this.bookIds[index] = bookIds[index];
         }
+
     }
 
     private static boolean isValidBookId(String bookId) {
@@ -76,7 +77,7 @@ class ReferenceOnlyLoanReceipt extends LoanReceipt {
     }
 }
 
-class LoanReceiptMain {
+public class LoanReceiptMain {
     public static void main(String[] args) {
         LoanReceipt receipt = new LoanReceipt("LIB-8841", new String[]{"BK-100", "BK-101"});
         String[] ids = receipt.getBookIds();

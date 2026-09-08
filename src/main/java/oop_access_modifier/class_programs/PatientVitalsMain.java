@@ -1,4 +1,4 @@
-public class PatientVitals {
+class PatientVitals {
     private final double[] readings;
     private int readingCount;
 
@@ -39,7 +39,7 @@ public class PatientVitals {
 
 }
 
-class PatientVitalsMain {
+public class PatientVitalsMain {
     public static void main(String[] args) {
         PatientVitals vitals = new PatientVitals(new double[]{36.5, -2, 37.1});
         double[] readings = vitals.getAllReadings();

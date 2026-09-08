@@ -1,4 +1,4 @@
-public class BookInventory {
+class BookInventory {
     private final int copiesTotal;
     private int copiesAvailable;
 
@@ -26,9 +26,11 @@ public class BookInventory {
         return copiesAvailable;
     }
 
+
+
 }
 
-class BookInventoryMain {
+public class BookInventoryMain {
     public static void main(String[] args) {
         BookInventory inventory = new BookInventory(3);
         inventory.checkOut();

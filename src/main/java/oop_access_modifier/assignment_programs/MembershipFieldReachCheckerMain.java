@@ -15,7 +15,7 @@ class MembershipLibraryMember {
     }
 }
 
-public class MembershipFieldReachChecker {
+class MembershipFieldReachChecker {
     static String classifyAccess(String fieldModifier, String accessorContext) {
         if ("public".equals(fieldModifier)) {
             return "ALLOWED";
@@ -60,9 +60,11 @@ public class MembershipFieldReachChecker {
                 + denied[3] + " denied";
     }
 
+
+
 }
 
-class MembershipFieldReachCheckerMain {
+public class MembershipFieldReachCheckerMain {
     public static void main(String[] args) {
         System.out.println(MembershipFieldReachChecker.classifyAccess("private", "SAME_CLASS"));
         System.out.println(MembershipFieldReachChecker.summarizeByModifier(new String[][]{{"private", "SAME_CLASS"},

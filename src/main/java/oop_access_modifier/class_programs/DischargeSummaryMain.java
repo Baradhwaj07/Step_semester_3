@@ -1,4 +1,4 @@
-public class DischargeSummary {
+class DischargeSummary {
     private static final String MEDICATION_PREFIX;
     private final String patientId;
     private final String[] medicationCodes;
@@ -67,7 +67,7 @@ public class DischargeSummary {
 
 }
 
-class DischargeSummaryMain {
+public class DischargeSummaryMain {
     public static void main(String[] args) {
         DischargeSummary summary = new DischargeSummary("MT2026-0142",
                 new String[]{"MED-A", "MED-B"});
