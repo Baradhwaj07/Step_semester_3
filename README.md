@@ -2,15 +2,22 @@
 
 **Today's Work:**
 
-- Completed the Session 1 assignment problems:
-  - Duplicate Finder
-  - Movie Review
-  - Traffic Signal
-  - Typing Accuracy
-  - Warehouse
+- Completed the Session 2 String Operations class problems:
+  - Bank Transaction Reference Validator
+  - CSV Student Record Parser
+  - File Extension Validator
+  - Masked Phone Number Formatter
+  - Vowel Consonant Counter
+
+- Completed the Session 2 String Operations assignment problems:
+  - ATM PIN Length Validator
+  - Library ISBN Normalizer Validator
+  - Product Inventory CSV Parser
+  - Stop Word Filtered Word Frequency Report
+  - Word Reversal Encoder
 
 **Next Session Plan:**
-- Start Session 2 problems.
+- Start Session 3 problems.
 
 **Issues Faced:**
 - None
