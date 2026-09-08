@@ -2,19 +2,19 @@
 
 **Today's Work:**
 
-- Completed the OOP Fundamental class problems:
-  - Attendance System
-  - Fee System
-  - Hostel Allocation
-  - Mini System
-  - Student Identity
+- Completed the OOP Fundamental 2 class problems:
+  - Boarding Penalty Calculator Demo
+  - Bus Route Ranking Engine
+  - Bus Ticket Booking Validator
+  - Fare Splitter Demo
+  - Nightly Fleet Reconciliation Engine
 
-- Completed the OOP Fundamental assignment problems:
-  - Employee Pay
-  - HR Parking System
-  - Library Fine Collector
-  - Library Membership
-  - Parking Allocation
+- Completed the OOP Fundamental 2 assignment problems:
+  - Canteen Trust Score Ranking Engine
+  - Delivery Slot Booking
+  - Exam Week Surge Fee Calculator
+  - Ghost Order Validator
+  - Nightly Multi-Kitchen Reconciliation Engine
 
 **Next Session Plan:**
 
