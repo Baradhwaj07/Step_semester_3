@@ -2,23 +2,23 @@
 
 **Today's Work:**
 
-- Completed the OOP Fundamental 2 class problems:
-  - Boarding Penalty Calculator Demo
-  - Bus Route Ranking Engine
-  - Bus Ticket Booking Validator
-  - Fare Splitter Demo
-  - Nightly Fleet Reconciliation Engine
+- Completed the OOP Access Modifier class programs:
+  - Access Checker
+  - Access Rule Engine
+  - Discharge Summary
+  - Patient Profile
+  - Patient Vitals
 
-- Completed the OOP Fundamental 2 assignment problems:
-  - Canteen Trust Score Ranking Engine
-  - Delivery Slot Booking
-  - Exam Week Surge Fee Calculator
-  - Ghost Order Validator
-  - Nightly Multi-Kitchen Reconciliation Engine
+- Completed the OOP Access Modifier assignment programs:
+  - Access Checker
+  - Book Inventory
+  - Library Member
+  - Loan Receipt
+  - Membership Field Reach Checker
 
 **Next Session Plan:**
 
-- Start the next session's problems.
+- Study Method Overriding.
 
 **Issues Faced:**
 
