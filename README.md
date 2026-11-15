@@ -9,9 +9,16 @@
   - Product Price Finder
   - Library Platform
 
+- Completed the Linked List assignment problems:
+  - Cancel Kth Last Order
+  - Campus Browser History
+  - Merging Two Ticket Counters
+  - Palindrome Train Code
+  - Polynomial Calculator
+
 **Next Session Plan:**
 
-- Complete Linked List assignment problems.
+- Study next data structure topic.
 
 **Issues Faced:**
 
